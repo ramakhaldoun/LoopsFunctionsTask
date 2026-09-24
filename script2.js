@@ -13,13 +13,13 @@ alert (result);
 
 //////////////////////////////////////////////////////
 
-let num="";
+let num1="";
 for(let i=0; i<=20; i++){
     if(i%3==0){
-        num+=i;
+        num1+=i;
     }
 }
-console.log(num);
+console.log(num1);
 
 /////////////////////////////////////////////////////
 
@@ -48,11 +48,11 @@ let num3=prompt("enter a number");
 /////////////////////////////////////////////////////
 
 let num5=Number(prompt("enter an integer: "));
-let sum=0;
+let sumnum=0;
 for(let i=0; i<=num5; i++){
-    sum+=i;
+    sumnum+=i;
 }
-alert("the sum is: "+ sum);
+alert("the sum is: "+ sumnum);
 
 //////////////////////////////////////////////////////
 
